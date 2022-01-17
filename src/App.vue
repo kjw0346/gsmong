@@ -5,6 +5,7 @@
       <v-spacer />
       <div class="d-none d-sm-flex">
         <v-btn class="mr-3" to="/">홈</v-btn>
+        <v-btn class="mr-3" to="/about">정보</v-btn>
       </div>
       <v-btn icon @click="toggleTheme">
         <v-icon>mdi mdi-brightness-6</v-icon>
@@ -20,6 +21,9 @@
       <v-btn to="/">
         <v-icon>mdi mdi-home</v-icon>
         <span>홈</span>
+      </v-btn>
+      <v-btn to="/about">
+        <v-icon>class="fas fa-address-card"</v-icon>
       </v-btn>
 
     </v-bottom-navigation>
