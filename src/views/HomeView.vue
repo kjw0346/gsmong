@@ -26,6 +26,9 @@
         <v-btn icon href="https://blog.naver.com/kjw0346">
           <v-icon>fas fa-blog</v-icon>
         </v-btn>
+        <v-btn icon href="https://open.kakao.com/o/sCJltUUd">
+          <v-icon>far fa-comments</v-icon>
+        </v-btn>
         <v-btn icon href="https://github.com/kjw0346">
           <v-icon>fab fa-github</v-icon>
         </v-btn>
