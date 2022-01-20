@@ -25,13 +25,15 @@
 
         <div align="center"><h3>&nbsp;&nbsp;&nbsp;&nbsp;우리 아이들은 쉬운 교육과정은 학교 선생님과 공부하고,<br>&nbsp;&nbsp;&nbsp;&nbsp;오히려 어려운 응용과 심화과정을<br>&nbsp;&nbsp;&nbsp;&nbsp;집에서 혼자 끙끙 숙제로 풀어야만 할까요?</h3></div>
         </details>
+        <br/>
         <details>
-        <summary>&nbsp;&nbsp;<div align="center"><font color="orange">왜?</font></div></summary>
+        <summary align="center">&nbsp;&nbsp;<font color="orange">왜?</font></summary>
 
         <div align="center"><h3>&nbsp;&nbsp;&nbsp;&nbsp;우리 아이들은 모르는 것과 아는 것을 말하지 못하고,<br>&nbsp;&nbsp;&nbsp;&nbsp;수업시간 내내 조용히,<br>&nbsp;&nbsp;&nbsp;&nbsp;가만히 듣기만 해야 할까요?</h3></div>
           </details>
+          <br/>
           <details>
-        <summary>&nbsp;&nbsp;<div align="right"><font color="blue">왜?</font></div></summary>
+        <summary align="right">&nbsp;&nbsp;<font color="blue">왜?</font></summary>
 
         <div align="center"><h3>&nbsp;&nbsp;&nbsp;&nbsp;한국의 수학교육은 주입식을 벗어나지 못하고,<br>&nbsp;&nbsp;&nbsp;&nbsp;수포자가 넘쳐날까요?</h3></div>
 </details>
