@@ -12,3 +12,4 @@ createApp(App)
   .use(vuetify)
   .use(Particles)
   .mount('#app')
+

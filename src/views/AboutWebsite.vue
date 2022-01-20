@@ -1,23 +1,70 @@
 <template>
-<v-container class="mx-auto">
-    <v-card max-width="500px" class="card">
-        <v-card-title>소개</v-card-title>
-        <v-card-text class="text--primary">
-            <div>분당구 정자동 초 중 고 수학의 지름길 학원입니다.<br>수학단과 심화학습 관리,<br>개인별 맞춤교육.질의,<br>문답형 학습자중심학습법, <br>플립러닝 메타 인지학습법.<br>수학에 흥미와 자신감을 기르고 수학공부가 즐거워하는 분위기로 내신 up!!<br>수능1등급 목표.  .</div>
-        </v-card-text>
-        <v-card-actions>
-            <v-btn to="/">홈</v-btn>
-        </v-card-actions>
+  <v-container>
+    <v-card class="mx-auto" elevation="4" max-width="500">
+      <v-list-item three-line>
+        <v-list-item-content>
+          <h2>김진우 원장</h2>
+          <p>
+            <v-icon>mdi mdi-city</v-icon> 성남 분당구 정자동
+          </p>
+          <p>
+            <v-icon>mdi mdi-heart</v-icon> 수학, 학생들
+          </p>
+        </v-list-item-content>
+
+        <v-spacer />
+
+        <v-avatar class="profile" color="grey" size="25%">
+          <v-img src="../assets/cover4.jpg" max-width="150px"></v-img>
+        </v-avatar>
+      </v-list-item>
+
+      <v-card-actions>
+        <v-btn icon @click="dialog_email = true">
+          <v-icon>fas fa-envelope</v-icon>
+        </v-btn>
+        <v-btn icon href="https://blog.naver.com/kjw0346">
+          <v-icon>fas fa-blog</v-icon>
+        </v-btn>
+        <v-btn icon href="https://open.kakao.com/o/sCJltUUd">
+          <v-icon>far fa-comments</v-icon>
+        </v-btn>
+        <v-btn icon href="https://github.com/kjw0346">
+          <v-icon>fab fa-github</v-icon>
+        </v-btn>
+      </v-card-actions>
     </v-card>
-</v-container>
+    
+
+    
+
+
+    <v-dialog v-model="dialog_email">
+      <v-card>
+        <v-card-title class="headline">Email</v-card-title>
+        <v-card-text>
+          kjw0346@naver.com
+        </v-card-text>
+
+        <v-card-actions>
+          <v-spacer></v-spacer>
+          <v-btn href="mailto:kjw0346@naver.com">
+                        이메일 보내기
+          </v-btn>
+          <v-btn text @click="dialog_email = false">
+                        닫기
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog>
+
+  </v-container>
 </template>
 
-<script>
-export default {
-name: "AboutWebsite.vue"
-}
-</script>
 
-<style scoped>
 
+<style>
+  .mx-auto {
+    margin: 10px auto;
+  }
 </style>

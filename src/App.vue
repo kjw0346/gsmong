@@ -1,11 +1,13 @@
 <template>
   <v-app id="app" :theme="theme">
     <v-app-bar elevation="4">
-      <v-toolbar-title><h1><samp>ㅤ수학의 지름길 학원</samp></h1></v-toolbar-title>
+      <v-toolbar-title><h1><samp>ㅤ<a href="/">Open your mind!</a></samp></h1></v-toolbar-title>
       <v-spacer />
       <div class="d-none d-sm-flex">
-        <v-btn class="mr-3" to="/">홈</v-btn>
-        <v-btn class="mr-3" to="/about">정보</v-btn>
+        <v-btn class="mr-3" to="/"><h1>&radic;</h1></v-btn>
+        <v-btn class="mr-3" to="/more"><h1>&Sigma;</h1></v-btn>
+        <v-btn class="mr-3" to="/about">소개</v-btn>
+
       </div>
       <v-btn icon @click="toggleTheme">
         <v-icon>mdi mdi-brightness-6</v-icon>
@@ -19,33 +21,43 @@
 
     <v-bottom-navigation class="d-flex d-sm-none">
       <v-btn to="/">
-        <v-icon>mdi mdi-home</v-icon>
+        <v-icon>fas fa-square-root-alt</v-icon>
         <span>홈</span>
       </v-btn>
-      <v-btn to="/about">
-        <v-icon>class="fas fa-address-card"</v-icon>
+
+      <v-btn to="/more">
+        <h1>&Sigma;</h1>
+        <span>상세 교육과정</span>
       </v-btn>
+
+      <v-btn to="/about">
+        <v-icon>fas fa-address-card</v-icon>
+        <span>소개</span>
+      </v-btn>
+
 
     </v-bottom-navigation>
     <footer>
       <div align="center"><samp>쿠키를 사용하는 웹사이트입니다.</samp></div>
     </footer>
+
   </v-app>
 </template>
 
 <script lang="ts">
   import { defineComponent } from 'vue';
   import ParticleBackground from "@/components/ParticleBackground.vue";
-  
+
 
   export type DataType = {
     theme: string
   }
 
- 
-  
+
+
   export default defineComponent({
     name: 'App',
+    el: '#app',
     components: {
       ParticleBackground
 
@@ -92,5 +104,10 @@
       }
     
   })
-  
+
 </script>
+
+<style>
+a { text-decoration: none; }
+
+</style>
