@@ -1,14 +1,6 @@
 <template>
 <v-container class="more">
-    <v-card max-width="500px" class="card">
-        <v-card-title>축하합니다!</v-card-title>
-      <div class="figure"><v-img src="../assets/as.jpg" alt="" /></div>
-      <br/>
-          <div align="center">
 
-  </div>
-
-    </v-card>
     <v-card max-width="500px" class="card">
         <v-card-title>박규리 학생</v-card-title>
       <div class="figure"><v-img src="../assets/박규리.png" alt="" /></div>
