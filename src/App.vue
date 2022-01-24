@@ -6,6 +6,7 @@
       <div class="d-none d-sm-flex">
         <v-btn class="mr-3" to="/"><h1>&radic;</h1></v-btn>
         <v-btn class="mr-3" to="/more"><h1>&Sigma;</h1></v-btn>
+        <v-btn class="mr-3" to="/history"><h1>&Omega;</h1></v-btn>
         <v-btn class="mr-3" to="/about">소개</v-btn>
 
       </div>
@@ -28,6 +29,11 @@
       <v-btn to="/more">
         <h1>&Sigma;</h1>
         <span>상세 교육과정</span>
+      </v-btn>
+
+      <v-btn to="/history">
+        <v-icon>&Omega;</v-icon>
+      <span>수상내역</span>
       </v-btn>
 
       <v-btn to="/about">

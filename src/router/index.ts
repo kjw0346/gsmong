@@ -2,6 +2,7 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import More from '../views/MoreView.vue'
 import About from '../views/AboutWebsite.vue'
+import History from '../views/HistoryView.vue'
 import NotFoundView from '../views/_NotFoundView.vue'
 
 const routes: Array<RouteRecordRaw> = [
@@ -19,6 +20,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/more',
     name: 'more',
     component: More
+  },
+  {
+    path: '/history',
+    name: 'history',
+    component: History
   },
   {
     path: '/about',

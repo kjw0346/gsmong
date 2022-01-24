@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-card class="mx-auto" elevation="4" max-width="500">
-
+          <v-img src="../assets/mex.png" alt="" />
           <div align="center">
           <!--TODO spinning math symbol on each side of `open your mind`-->
           <h1 align="center"><br>Open your mind!</h1>
