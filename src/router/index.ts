@@ -4,6 +4,9 @@ import More from '../views/MoreView.vue'
 import About from '../views/AboutWebsite.vue'
 import History from '../views/HistoryView.vue'
 import NotFoundView from '../views/_NotFoundView.vue'
+import FootSteps from '../views/FootSteps.vue'
+import Videos from '../views/VideosView.vue'
+import Classes from '../views/ClassesView.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -25,6 +28,19 @@ const routes: Array<RouteRecordRaw> = [
     path: '/history',
     name: 'history',
     component: History
+  },
+  {
+    path: '/footsteps',
+    name: 'footsteps',
+    component: FootSteps
+  },{
+    path: '/videos',
+    name: 'videos',
+    component: Videos
+  },{
+    path: '/classes',
+    name: 'classes',
+    component: Classes
   },
   {
     path: '/about',

@@ -15,7 +15,11 @@
 
     </v-card>
 
-    <v-card class="mx-auto" elevation="4" max-width="500" title="Cogito, ergo sum!"> <!--TODO h1?-->
+    <v-card class="mx-auto" elevation="4" max-width="500">
+      <div align="center"><h1><br><br>Cogito, ergo sum!<br><br></h1>나는 생각한다, 고로 존재한다.<h1><br><br></h1></div>
+    </v-card>
+
+    <v-card class="mx-auto" elevation="4" max-width="500" title=""> <!--TODO h1?-->
       <v-list lines="two">
         <v-list-item prependIcon="fas fa-brain" title="Why?" subtitle="왜 수학의 지름길인가?" />
 
@@ -37,17 +41,27 @@
 
         <div align="center"><h3>&nbsp;&nbsp;&nbsp;&nbsp;한국의 수학교육은 주입식을 벗어나지 못하고,<br>&nbsp;&nbsp;&nbsp;&nbsp;수포자가 넘쳐날까요?</h3></div>
 </details>
+      </v-list>
+ </v-card >
+ <v-card class="mx-auto" elevation="4" max-width="500" title="">
+   <v-list>
         <v-list-item prependIcon="far fa-comment" title="Talk!" subtitle="수학을 말하다" />
 
         <div align="center"><h3>&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">'조용히 해'</font>, <font color="red">'입 다물어'</font> 라는 말이 사라지고<br/>&nbsp;&nbsp;&nbsp;&nbsp;활발히 질문과 답변이 오가며<br/>&nbsp;&nbsp;&nbsp;&nbsp;학생이 주도적으로 참여하는 수학교실</h3></div>
+</v-list>
+</v-card>
 
+<v-card class="mx-auto" elevation="4" max-width="500" title="">
+  <v-list>
         <v-list-item prependIcon="far fa-grin-beam" title="HAPPY!" subtitle="수학이 즐거워진다!" />
 
         <div align="center"><h3>&nbsp;아이들이 즐겁고,<br/>행복해야 수학성적이 오르는 이상한 수학교실.<br/>상위 0.1%의 특급비밀인 <font color="pink">'말하는 수학공부법'</font>으로<br/>즐겁게 공부하는 수학교실<br/></h3></div>
 
       </v-list>
+
       <br/>
-    </v-card>
+</v-card>
+   
 
     <v-card class="mx-auto" elevation="4" max-width="500">
       <v-list-item three-line>

@@ -7,6 +7,9 @@
         <v-btn class="mr-3" to="/"><h1>&radic;</h1></v-btn>
         <v-btn class="mr-3" to="/more"><h1>&Sigma;</h1></v-btn>
         <v-btn class="mr-3" to="/history"><h1>&Omega;</h1></v-btn>
+        <v-btn class="mr-3" to="/footsteps"><h1>&Delta;</h1></v-btn>
+        <v-btn class="mr-3" to="/videos"><h1>&Phi;</h1></v-btn>
+        <v-btn class="mr-3" to="/classes"><h1>&Pi;</h1></v-btn>
         <v-btn class="mr-3" to="/about">소개</v-btn>
 
       </div>
@@ -32,8 +35,23 @@
       </v-btn>
 
       <v-btn to="/history">
-        <v-icon>&Omega;</v-icon>
+        <h1>&Omega;</h1>
       <span>수상내역</span>
+      </v-btn>
+
+      <v-btn to="/footsteps">
+        <h1>&Delta;</h1>
+      <span>멘토링</span>
+      </v-btn>
+
+      <v-btn to="/footsteps">
+        <h1>&Phi;</h1>
+      <span>동기부여</span>
+      </v-btn>
+
+      <v-btn to="/classes">
+        <h1>&Pi;</h1>
+      <span>영상강의</span>
       </v-btn>
 
       <v-btn to="/about">
