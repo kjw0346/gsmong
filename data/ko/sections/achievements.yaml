@@ -1,0 +1,27 @@
+# section information
+section:
+  name: 실적
+  id: achievements
+  enable: true
+  weight: 8
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+- title: 박규리 학생
+  image: /images/박규리.2cdcd328.png
+  summary: Best presenter in the 2020 XYZ conference.
+- title: Champion
+  image: /images/sa.d3883c00.jpg
+  summary: Champion in cycling inter-city cycling championship 2020.
+- title: Graduation
+  image: /images/saa.3dd6e918.jpg
+  summary: Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.
+- title: Award Winner
+  image: /images/sd.5addbdec.jpg
+  summary: Wined best paper award at IEE Conference 2020.
+- title: 박준석 학생
+  image: /images/낙생고1박준석.e59a84a8.jpg
+  summary:

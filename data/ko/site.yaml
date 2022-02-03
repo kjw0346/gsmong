@@ -1,0 +1,19 @@
+# Copyright Notice
+copyright: © 2022 Copyright. 수학의 지름길 학원
+
+# A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
+
+# Meta description for your site.  This will help the search engines to find your site.
+description: "수학의 지름길이 지름까지 걸어온 길"
+
+# specify the list of custom menus that you want to show in the top navbar.
+# they will be separated by a divider from the main menus.
+
+
+# Specify OpenGraph Headers
+openGraph:
+  title: 수학의 지름길 블로그
+  type: website
+  description: "수학의 지름길: 걸어온 길"
+  image: images/author/john.png
+  url: https://gsmong.net/

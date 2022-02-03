@@ -1,0 +1,65 @@
+# section information
+section:
+  name: 연간 학습과정
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: 신학기 학년과정 선수학습
+  icon: fa-microscope
+  timeframe: 
+  institution:
+    name: 1분기
+
+
+  publications: #(optional)
+  - title: 1~2년 선행+심화
+    
+  - title: 심화+사고력
+    
+  - title: 경시
+    
+- name: 1학기 학년과정 심화학습
+  icon: fa-microscope
+  timeframe: 
+  institution:
+    name: 2분기
+
+
+  publications: #(optional)
+  - title: 1~2년 선행+사고력
+    
+  - title: 경시
+    
+    
+- name: 2학기 학년과정 선수학습
+  icon: fa-microscope
+  timeframe: 
+  institution:
+    name: 3분기
+
+
+  publications: #(optional)
+  - title: 1~2년 심화+사고력
+    
+  - title: 경시
+    
+- name: 2학기 학년과정 심화학습
+  icon: fa-microscope
+  timeframe: 
+  institution:
+    name: 4분기
+
+
+  publications: #(optional)
+  - title: 1~2년 선행+심화
+    
+  - title: 심화+사고력
+    
+  - title: 경시
+    

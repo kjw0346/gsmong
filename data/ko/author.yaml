@@ -1,0 +1,17 @@
+# some information about you
+name: "수학의 지름길 학원"
+nickname: "수학의 지름길"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Cogito, Ergo Sum! by"
+image: "images/author/john.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  이메일: "kjw0346@naver.com"
+  phone: "031-718-3208"
+  GitHub: kjw0346
+
+# some summary about what you do
+summary:
+  - 수학을 어렵지 않게
+  - 항상 질문하는 수학교실
+  - 학생들이 즐거워하는 수학교실

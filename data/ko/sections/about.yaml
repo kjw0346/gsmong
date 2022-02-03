@@ -1,0 +1,66 @@
+# section information
+section:
+  name: 소개
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+resume: "https://naver.me/GTOQxjEi"
+  
+
+# your designation
+designation: 선두주자
+# your company information
+company:
+  name: 수학의 세계
+
+
+# your resume. this file path should be relative to you "static" directory
+#resume: "files/resume.pdf"
+
+# a summary about you
+summary: '수학의 지름길은 개인별 심화 학습 관리를 10여 년 지속하며 숙련된 경험과 노련한 관리로 과학.영재고, 자사고, 특목고, 일반 우수고에 진학하여 내신, 수행평가,수리논술탐구를 체계적 지속 관리하여 최종 대학교 진학에서도 좋은 결과를 이어 왔습니다.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: 이메일
+  icon: "fas fa-envelope"
+  url: "mailto:kjw0346@naver.com"
+- name: 카톡
+  icon: "far fa-comments"
+  url: "https://open.kakao.com/o/sCJltUUd"
+- name: 블로그
+  icon: "fas fa-blog"
+  url: "https://blog.naver.com/kjw0346"
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/kjw0346"
+
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: soft-skill-indicator
+  name: 리더쉽
+  percentage: 100
+  color: blue
+
+- type: soft-skill-indicator
+  name: 팀워크
+  percentage: 100
+  color: yellow
+
+- type: soft-skill-indicator
+  name: 항상 우수한 실력
+  percentage: 100
+  color: orange
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"

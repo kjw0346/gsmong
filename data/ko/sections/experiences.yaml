@@ -1,0 +1,47 @@
+# section information
+section:
+  name: 학습 시스템
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: 
+    location: 
+    # company overview
+    overview: 
+  positions:
+  - designation: 지능형 개별맞춤학습
+
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - 학생 개개인 1:1 컨설팅
+    - 학습 진도, 성취도, 학습능력에 따른 과정 설계
+
+
+- company:
+    name: 
+    overview: 
+  positions:
+  - designation: 지능형 개별맞춤학습
+
+    responsibilities:
+    - 기본 개념을 효과적으로 습득
+    - 교실에서 문제풀이와 심화확장 수업을 하는 교육
+
+- company:
+    name: 
+  positions:
+  - designation: 완전학습 시스템
+    start: Jun 2015
+    end: Jan 2016
+    responsibilities:
+    - 철저하게 학습하는 과정
+    - 빈틈없는 첨삭과 오답관리
