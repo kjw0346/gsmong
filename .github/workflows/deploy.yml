@@ -1,0 +1,31 @@
+name: Node.js Deploy CI
+
+on:
+  push:
+    branches:
+      - source
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup Hugo
+      run: sudo apt install hugo
+    - name: Build
+      run: |
+        hugo build -D
+    - name: Setup Git
+      run: |
+        git config --global user.name "bot"
+        git config --global user.email "${{secrets.ACTIONS_EMAIL}}"
+    - name: Deploy
+      run: |
+        git clone https://${{github.actor}}:${{github.token}}@github.com/${{github.repository}} -b main
+        mv gsmong/.git public/
+        cd dist
+        git add .
+        git commit --allow-empty -m "built from ${{github.sha}}"
+        git push --force-with-lease origin main
+        
