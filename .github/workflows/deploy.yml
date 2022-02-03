@@ -1,4 +1,4 @@
-name: Node.js Deploy CI
+name: Hugo Deploy CI
 
 on:
   push:
@@ -12,10 +12,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Setup Hugo
-      run: sudo apt install hugo
+      run: sudo apt update;sudo apt install hugo
     - name: Build
       run: |
-        hugo build -D
+        hugo -D
     - name: Setup Git
       run: |
         git config --global user.name "bot"

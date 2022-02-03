@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Setup Hugo
-      run: sudo apt install hugo
+      run: sudo apt update;sudo apt install hugo
     - name: Build
       run: |
-        hugo
+        hugo -D
