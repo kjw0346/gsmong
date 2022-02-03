@@ -24,7 +24,7 @@ jobs:
       run: |
         git clone https://${{github.actor}}:${{github.token}}@github.com/${{github.repository}} -b main
         mv gsmong/.git public/
-        cd dist
+        cd public
         git add .
         git commit --allow-empty -m "built from ${{github.sha}}"
         git push --force-with-lease origin main
