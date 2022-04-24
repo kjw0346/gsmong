@@ -18,8 +18,8 @@ skills:
 
 - name: 기하
   logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
+  summary: "일차방정식에서 이차방정식, 그리고 고차방정식, 지수로그 등의 심화개념으로 뻗어나가는 초석을 확실히 다집니다."
+  url: "https://gsmong.net/"
 
 - name: 미분/적분
   logo: /images/sections/skills/cloud.png
