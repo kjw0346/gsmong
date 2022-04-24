@@ -1,0 +1,16 @@
+# section information
+section:
+  name: 입학 테스트
+  id: information
+  enable: true
+  weight: 8
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+- title: 수학의 지름길
+  image: /images/naverForm.png
+  summary: Best presenter in the 2020 XYZ conference.
+- 
